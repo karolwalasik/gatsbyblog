@@ -5,8 +5,19 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'gatsby test',
+    author: 'Karol Walasik'
+  },
   plugins: [
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    }
   ]
 
 }

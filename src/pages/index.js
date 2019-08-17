@@ -9,7 +9,7 @@ const IndexPage = () => {
             <h1>Hello</h1>
             <h2>My name is Karol/ <Link to="/about">o mnie</Link>, Junior front end dev</h2>
             <p> <a href="/contact">kontakt</a></p>
-            <p>programista? <Link to="/contact">kontakt</Link></p>
+            <p> <Link to="/contact">kontakt</Link></p>
             <p><a href="https://www.google.pl/" target="_blank">google</a></p>
         </Layout>
     )
